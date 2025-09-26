@@ -24,11 +24,6 @@ Beyond replication, I provide extensions of Galí’s framework and conduct inde
 - **Replication Data (this project):**  
   - Quarterly, seasonally adjusted real GDP and employment data from **FRED**.  
   - Annual hours worked combined with quarterly employment shares to construct quarterly hours.  
-  - Productivity defined as:  
-
-    \[
-    \text{Productivity} = \log(\text{GDP}) - \log(\text{Hours Worked})
-    \]
 
 - Both productivity and hours worked exhibit non-stationarity, and are made stationary by first differencing.  
 - Augmented Dickey-Fuller tests confirm stationarity of differenced series.
